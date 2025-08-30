@@ -39,18 +39,18 @@ Frontend portrait mode
 
  1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/esp32-cam-tank.git
-cd esp32-cam-tankk
+git clone https://github.com/zelchcsaba/esp32-cam-tank.git
+cd esp32-cam-tank
 ```
 2. Backend (NestJS + Node.js)
 ```bash
-cd esp32cambackend
+cd backend
 npm install
 npm run start
 ```
 3. Frontend (React + Vite)
 ```bash
-cd esp32camfrontend
+cd frontend
 npm install
 ```
 change the .env file: VITE_WS_SERVER=ws://[your ip address]:3000/client
@@ -59,7 +59,7 @@ npm run dev
 ```
 4. ESP32 CAM
 ```bash
-cd esp32camespandarduino/websocket
+cd espandarduino/websocket
 ```
 Open the websocket.ino file and change the ssidList and passList and the ws host
 ```bash
